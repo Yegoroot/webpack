@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "runWebpack": "webpack --config webpack.config.js",
+    "runWebpackHot": "webpack-dev-server --hotOnly",
     "build": "webpack",
     "watch": "webpack --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
