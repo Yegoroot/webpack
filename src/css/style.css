@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "OpenSans";
+  src: url("../font/OpenSans.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  font-family: "OpenSans";
+}
+button {
+  font-family: inherit;
+  padding: 10px;
+  color: #fff;
+  border: none;
+  background: #2c2c2c;
+}
+.img {
+  width: 277px;
+  height: 115px;
+  margin: 10px auto;
+  display: block;
+  background-image: url("../img/img.png");
+}
+
+p {
+  color: green;
+}
